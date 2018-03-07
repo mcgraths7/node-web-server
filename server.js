@@ -60,7 +60,8 @@ app.get('/bad', (req, res) => {
 
 app.get('/projects', (req, res) => {
 	res.render('projects.hbs', {
-		pageTitle: "Projects Page",
+		pageHeader: "Projects Page",
+		pageBody: "A curated assortment of projects",
 		projectsLink: "www.github.com/mcgraths7"
 	});
 });
